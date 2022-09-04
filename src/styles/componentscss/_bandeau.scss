@@ -1,0 +1,28 @@
+.bandeau {
+    width: 1200px;
+    margin: auto;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+    .heure {
+        position: absolute;
+    }
+    .nom {
+        position: absolute;
+        margin-left: 300px;
+        font-size: 26px;
+    }
+    .text {
+        position: absolute;
+        margin-left: 600px;
+        font-size: 16px;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+            width: 80%;
+            color: orange;
+        }
+    }
+}

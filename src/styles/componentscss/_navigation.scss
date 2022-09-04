@@ -1,0 +1,36 @@
+.navigation {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin: 30px auto;
+      
+  
+      a {
+        text-decoration: none;
+        padding: 10px;
+  
+        li {
+          background-color: orange;
+          width: 150px;
+          height: 20px;
+          color: white;
+          transition: 0.2s;
+          cursor: pointer;
+  
+          &:hover {
+            color: blue;
+            font-weight: bold;
+          }
+        }
+      }
+  
+      .nav-active {
+        background-color: red;
+
+        li {
+          background-color: red;
+        }
+      }
+    }
+  }

@@ -1,0 +1,42 @@
+.atome {
+    width: 60px;
+    height: 60px;
+
+    h2 {
+        text-align: center;
+        margin-top: -5px;
+    }
+
+    h3 {
+        
+        font-size: 14px;
+        margin-left: 3px;
+    }
+   
+    p {
+      text-transform: uppercase;
+      font-size: 10px;
+      text-align: center;  
+    }
+    .alcalin {
+        background-color: aqua;
+    }
+    .alcalino {
+        background-color: red;
+    }
+    .nonmetal {
+        background-color: rgb(114, 218, 88);
+    }
+    .gaznoble {
+        background-color: rgb(212, 145, 243);
+    }
+   .transition {
+       background-color: rgb(250, 250, 119);
+   }
+   .metalpauvre {
+        background-color: rgb(241, 150, 117);
+    }
+    .metalloide {
+        background-color: rgb(170, 167, 167);
+    }
+}

@@ -1,0 +1,62 @@
+.relevetemperature {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    .containersoleil {
+        position: absolute;
+        margin-left: 600px;
+    }    
+    .containercourbe {
+        width: 576px;
+        height: 500px;
+        background-color: aqua;
+
+        .repere_ordonne {
+            
+            margin-left: -30px;
+
+            .repere_zero {
+                position: absolute;
+                margin-top: 490px;
+            }
+            .repere_trente {
+                position: absolute;
+                margin-top: 40px;
+            }
+            .repere_vingt {
+                position: absolute;
+                margin-top: 190px;
+            }
+
+            .repere_dix {
+                position: absolute;
+                margin-top: 340px;
+            }
+        }
+       
+        
+    }
+    .containerhumidite {
+        width: 576px;
+        height: 360px;
+        background-color: rgb(33, 33, 36);
+
+        .repere_ordonne_hum {
+            
+            margin-left: -40px;
+
+            .repere_cinquante {
+                position: absolute;
+                margin-top: 210px;
+            }
+            .repere_soixantequinze {
+                position: absolute;
+                margin-top: 135px;
+            }
+
+            .repere_cent {
+                position: absolute;
+                margin-top: 60px;
+            }
+        }
+    }
+}
